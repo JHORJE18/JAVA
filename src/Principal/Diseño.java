@@ -21,6 +21,23 @@ public class Diseño {
 		
 	}
 	
+	//Crea lineas personalizadas temp
+	public void limpiarlnPS(int ln, String smb){
+			
+		for (int i=0; i<ln; i++){
+			System.out.print(smb);
+		}
+		System.out.println("");
+			
+	}
+	
+	//Crea enunciado
+	public void enunciado(String enun){
+		limpiarlnPS(enun.length(), "#");
+		System.out.println(enun);
+		limpiarlnPS(enun.length(), "#");
+	}
+	
 	//Crea creditos
 	public void marca(){
 		limpiarln();
