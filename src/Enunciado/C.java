@@ -10,6 +10,7 @@ public class C {
 	
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
+		ds.enunciado("Realizar un programa que muestre por pantalla los numero naturales hasta un valor final introducido por teclado por el usuario, este mismo ejemplo lo usaremos para ver la estructura do-while, y for");
 		
 		//Preguntamos datos
 		ds.limpiarln();

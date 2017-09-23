@@ -12,6 +12,7 @@ public class D {
 	
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
+		ds.enunciado("Definir un vector de 10 enteros, lo rellenamos y después nos muestra por pantalla los valores de dicho vector");
 		
 		//Preguntamos datos
 		for (int i=0; i<vector.length; i++){
