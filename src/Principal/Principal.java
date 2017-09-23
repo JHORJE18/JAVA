@@ -18,16 +18,16 @@ public class Principal {
 				ds.error(2);
 				break;
 			case 1:
-				menu();
+				System.out.println("Aqui comienza la actividad A");
 				break;
 			case 2:
-				menu();
+				System.out.println("Aqui comienza la actividad B");
 				break;
 			case 3:
-				menu();
+				System.out.println("Aqui comienza la actividad C");
 				break;
 			case 4:
-				menu();
+				System.out.println("Aqui comienza la actividad D");
 				break;
 			case 5:
 				salir = true;
@@ -39,7 +39,7 @@ public class Principal {
 		}
 		
 		ds.limpiarln();
-		System.out.println("Finalizando programa...");
+		System.out.println("Hasta luego cariño, espero que vuelvas pronto...");
 		ds.limpiarln();
 		ds.marca();
 	}
