@@ -45,4 +45,24 @@ public class Diseño {
 		limpiarln();
 	}
 	
+	//Errores
+	public void error(int code){
+		
+		limpiarlnPS(this.lineas, "$");
+		
+		switch(code){
+		case 1:
+			System.out.println("Error: Se ha introducido un número no válido");
+			break;
+		case 2:
+			System.out.println("Error: Se ha introducido un tipo de dato no válido");
+			break;
+		default:
+			System.out.println("Error: Se ha producido un error desconocido");
+			break;
+			
+		}
+		limpiarlnPS(this.lineas, "$");
+	}
+	
 }
