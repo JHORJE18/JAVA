@@ -52,13 +52,13 @@ public class Diseño {
 		
 		switch(code){
 		case 1:
-			System.out.println("Error: Se ha introducido un número no válido");
+			System.out.println("Error: Vamos, fijate que el número que has introducido no es válido");
 			break;
 		case 2:
-			System.out.println("Error: Se ha introducido un tipo de dato no válido");
+			System.out.println("Error: HEY!!! Relajate que has puesto un tipo de dato no válido");
 			break;
 		default:
-			System.out.println("Error: Se ha producido un error desconocido");
+			System.out.println("Error: No tengo ni la menor idea de que has hecho, pero te lo has cargado");
 			break;
 			
 		}
