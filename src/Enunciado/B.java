@@ -7,9 +7,9 @@ import Principal.Diseño;
 public class B {
 	
 	//Variable diseño
-	static Diseño ds = new Diseño(56, "-");
+	Diseño ds = new Diseño(56, "-");
 
-	public static void main(String[] args) {
+	public void inicio(){
 		Scanner entrada = new Scanner(System.in);
 		ds.enunciado("Realizar un programa que dado un día de la semana (entre 1 y 7) muestre por pantalla el nombre del día");
 		
@@ -45,8 +45,6 @@ public class B {
 				break;			
 		}
 		
-		//Fin
-		ds.marca();
 	}
 
 }

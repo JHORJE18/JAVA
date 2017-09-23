@@ -6,9 +6,9 @@ import Principal.Diseño;
 public class C {
 	
 	//Variable diseño
-	static Diseño ds = new Diseño(56, "-");
+	Diseño ds = new Diseño(56, "-");
 	
-	public static void main(String[] args) {
+	public void inicio(){
 		Scanner entrada = new Scanner(System.in);
 		ds.enunciado("Realizar un programa que muestre por pantalla los numero naturales hasta un valor final introducido por teclado por el usuario, este mismo ejemplo lo usaremos para ver la estructura do-while, y for");
 		
@@ -32,8 +32,6 @@ public class C {
 			}
 		}
 		
-		//Fin
-		ds.marca();
 	}
 
 }

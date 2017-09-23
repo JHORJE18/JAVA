@@ -7,9 +7,9 @@ import Principal.Diseño;
 public class A {
 	
 	//Variable diseño
-	static Diseño ds = new Diseño(56, "-");
+	Diseño ds = new Diseño(56, "-");
 
-	public static void main(String args []){
+	public void inicio(){
 		Scanner entrada = new Scanner(System.in);
 		ds.enunciado("Programar el ejercicio que vimos en organigramas, donde hacíamos un DFD que  dados tres números realizaba la multiplicación si el primer número era positivo y la suma si dicho número era negativo.");
 		
@@ -31,8 +31,6 @@ public class A {
 			//Calculo suma
 			System.out.println("El resultado de " + num[1] + " + " + num[2] + " es " + (num[1] + num[2]));
 		}
-		
-		//Fin
-		ds.marca();
+
 	}
 }

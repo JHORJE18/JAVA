@@ -6,11 +6,11 @@ import Principal.Diseño;
 public class D {
 	
 	//Variable diseño
-	static Diseño ds = new Diseño(56, "-");
-	static int limit = 10;
-	static int[] vector = new int[limit];
+	Diseño ds = new Diseño(56, "-");
+	int limit = 10;
+	int[] vector = new int[limit];
 	
-	public static void main(String[] args) {
+	public void inicio(){
 		Scanner entrada = new Scanner(System.in);
 		ds.enunciado("Definir un vector de 10 enteros, lo rellenamos y después nos muestra por pantalla los valores de dicho vector");
 		
@@ -35,9 +35,7 @@ public class D {
 				System.out.print(", ");
 			}
 		}
-		
-		//Fin
-		ds.marca();
+
 	}
 
 }
